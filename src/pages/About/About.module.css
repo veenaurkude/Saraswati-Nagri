@@ -1,0 +1,88 @@
+.aboutPage {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.banner {
+  position: relative;
+  background-image: url('../../assets/about.jpg'); /* Replace with your actual path */
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.banner::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+}
+
+.bannerContent {
+  position: relative;
+  z-index: 1;
+}
+
+.bannerContent h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.breadcrumbs {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.breadcrumbs a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.breadcrumbs span {
+  margin: 0 0.5rem;
+}
+
+.content {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner {
+    height: 180px;
+  }
+
+  .bannerContent h1 {
+    font-size: 1.8rem;
+  }
+
+  .breadcrumbs {
+    font-size: 0.9rem;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+}
