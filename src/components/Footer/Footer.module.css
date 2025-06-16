@@ -1,8 +1,7 @@
 .footer {
   background-color: #1f2937;
   color: #fff;
-  padding: 2rem 1rem;
-  font-family: 'Segoe UI', sans-serif;
+  padding: 4rem 4rem;
 }
 
 .container {
@@ -21,7 +20,7 @@
 .section h3 {
   color: #fff;
   margin-bottom: 0.5rem;
-  border-bottom: 2px solid #cc6600;
+  border-bottom: 1px solid #cc6600;
   display: inline-block;
   padding-bottom: 0.3rem;
 }
@@ -34,6 +33,7 @@
 .description {
   color: #ccc;
   font-size: 0.95rem;
+  text-align: justify;
 }
 
 a {

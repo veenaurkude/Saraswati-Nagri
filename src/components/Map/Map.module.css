@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.plotButton {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 4px 8px;
+  font-size: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 123, 255, 0.7);
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}

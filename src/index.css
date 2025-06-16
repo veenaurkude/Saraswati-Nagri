@@ -79,5 +79,10 @@ body {
   padding: 0;
   overflow-x: hidden;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Use Noto Sans for specific elements */
+.noto-text {
+  font-family: 'Noto Sans', sans-serif;
 }
