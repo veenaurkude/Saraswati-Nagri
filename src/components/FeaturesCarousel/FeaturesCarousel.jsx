@@ -1,4 +1,4 @@
-// components/FeaturesCarousel.jsx
+
 import React from "react";
 import styles from "./FeaturesCarousel.module.css";
 import { FaSchool, FaHospital, FaHome, FaTrain } from "react-icons/fa";

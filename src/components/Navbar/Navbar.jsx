@@ -61,7 +61,7 @@ const Navbar = () => {
               Gallery
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/blogs"
               className={styles.link}
@@ -69,7 +69,7 @@ const Navbar = () => {
             >
               Blogs
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/contact"
@@ -79,6 +79,7 @@ const Navbar = () => {
               Contact Us
             </Link>
           </li>
+          
         </ul>
       </div>
     </nav>
