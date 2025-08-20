@@ -1,0 +1,105 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.statusBox {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.statusAvailable {
+  background-color: #22c55e; /* Matches Map's green for available */
+}
+
+.statusSold {
+  background-color: #ef4444; /* Matches Map's red for sold */
+}
+
+.statusReserved {
+  background-color: #eab308; /* Matches Map's yellow for reserved */
+}
+
+.statusOpen {
+  background-color: #3b82f6; /* Matches Map's blue for open */
+}
+
+.legendText {
+  font-size: 14px;
+  color: #374151;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .legend {
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .legendText {
+    font-size: 12px;
+  }
+
+  .statusBox {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .legend {
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .legendText {
+    font-size: 11px;
+  }
+
+  .statusBox {
+    width: 12px;
+    height: 12px;
+  }
+}
